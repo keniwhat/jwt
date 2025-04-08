@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "jwt",
     platforms: [
-        .macOS(.v13),
+        .macOS(.v11),
         .iOS(.v16),
         .tvOS(.v16),
         .watchOS(.v9),
@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/vapor/jwt-kit.git", from: "5.1.0"),
-        .package(url: "https://github.com/vapor/vapor.git", from: "4.110.2"),
+        .package(url: "https://github.com/keniwhat/vapor.git", .branch("keniwhat-4.114.1")),
     ],
     targets: [
         .target(
