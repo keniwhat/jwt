@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/keniwhat/jwt-kit.git", .branch("keniwhat-5.1.2")),
-        .package(url: "https://github.com/keniwhat/vapor.git", .branch("keniwhat-4.114.1")),
+        .package(url: "https://github.com/keniwhat/vapor.git", .branch("range-eof")),
     ],
     targets: [
         .target(
